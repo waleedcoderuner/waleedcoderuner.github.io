@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Waleed's Blog & Links</title>
+  <title>Waleed's Blog + Links</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f9f9f9;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background: #f4f4f4;
+      color: #333;
     }
 
     header {
-      background: #333;
+      background: #222;
       color: white;
       padding: 20px;
       text-align: center;
@@ -27,27 +28,36 @@
 
     .post {
       background: white;
+      padding: 15px 20px;
       margin-bottom: 20px;
-      padding: 15px;
-      border-radius: 8px;
+      border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
     .post h2 {
-      margin: 0 0 10px;
+      margin-top: 0;
     }
 
-    .link {
-      background: #f0f0f0;
-      padding: 10px;
+    .date {
+      font-size: 0.9em;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 14px;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
       margin-top: 10px;
-      border-left: 4px solid #007BFF;
     }
 
     footer {
       text-align: center;
       font-size: 0.9em;
-      color: #888;
+      color: #aaa;
       padding: 20px;
     }
   </style>
@@ -55,32 +65,36 @@
 <body>
 
   <header>
-    <h1>Waleed's Blog & Project Links</h1>
+    <h1>Waleed's Projects & Links</h1>
   </header>
 
   <div class="container">
-      
-     <div class="post">
-  <div class="date">2025-07-08</div>
-  <h2>Best Python Course</h2>
-  <p>Yeh course beginner ke liye best hai.</p>
-  <p><a href="https://affiliate-example.com/python-course" target="_blank">👉 Enroll Now</a></p>
-</div>
 
-<div class="post">
-  <div class="date">2025-07-08</div>
-  <h2>Best Hosting for Beginners</h2>
-  <p>Agar aap apni website banana chahte hain, yeh best free hosting hai.</p>
-  <p><a href="https://affiliate-example.com/free-hosting" target="_blank">👉 Try Hosting</a></p>
-</div>
+    <div class="post">
+      <div class="date">2025-07-08</div>
+      <h2>Best Python Course for Beginners</h2>
+      <p>A great course to start learning Python from scratch. Highly recommended.</p>
+      <a href="https://affiliate-link.com/python-course" class="button" target="_blank">👉 Enroll Now</a>
     </div>
 
+    <div class="post">
+      <div class="date">2025-07-08</div>
+      <h2>Free Hosting for Beginners</h2>
+      <p>Get free hosting to deploy your first website.</p>
+      <a href="https://affiliate-link.com/free-hosting" class="button" target="_blank">👉 Try Free Hosting</a>
+    </div>
+
+    <div class="post">
+      <div class="date">2025-07-08</div>
+      <h2>Download My Python Projects</h2>
+      <p>Click below to download all my Python programs in ZIP format.</p>
+      <a href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/python-programs-main.zip" class="button" download>⬇️ Download ZIP</a>
     </div>
 
   </div>
 
   <footer>
-    © 2025 Waleed Ali. All rights reserved.
+    &copy; 2025 Waleed Ali. All rights reserved.
   </footer>
 
 </body>
