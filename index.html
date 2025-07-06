@@ -3,79 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Waleed's Programming Projects</title>
+  <title>Waleed | Code & Blog</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
+      background: #f2f2f2;
       color: #333;
     }
     header {
-      background-color: #1f1f1f;
-      color: white;
-      padding: 20px;
+      background: #0e0e0e;
+      color: #fff;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px 10px;
+      font-size: 1.5em;
     }
-    h1 {
-      margin: 0;
-      font-size: 2.2em;
-    }
-    .container {
+    .section {
       max-width: 800px;
-      margin: 0 auto;
+      margin: auto;
       padding: 20px;
     }
-    .project {
-      background-color: white;
-      margin-bottom: 24px;
-      padding: 20px;
+    .section h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .post, .project, .affiliate {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
       border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
-    .project h2 {
-      margin-top: 0;
+    .post .date {
+      font-size: 0.9em;
+      color: #888;
     }
-    .project p {
-      margin: 8px 0;
-    }
-    .download-btn {
+    a.button {
       display: inline-block;
-      background-color: #4CAF50;
+      padding: 10px 15px;
+      background: #007acc;
       color: white;
-      padding: 10px 16px;
       border-radius: 6px;
       text-decoration: none;
-      font-size: 0.95em;
-    }
-    .download-btn:hover {
-      background-color: #45a049;
+      margin-top: 10px;
     }
     footer {
       text-align: center;
-      padding: 20px;
       font-size: 0.8em;
+      padding: 20px;
       color: #aaa;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Waleed's Programming Projects</h1>
+    Waleed's Coding Space 🚀
   </header>
 
-  <div class="container">
-    
-    <div class="project">
-      <h2>Python Projects (ZIP)</h2>
-      <p>Is ZIP file me mere sab Python practice projects hain. Aap download karke use kar sakte hain.</p>
-      <a href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/python-programs-main.zip" download class="download-btn">
-        ⬇️ Download My Python Project (ZIP)
-      </a>
+  <div class="section">
+    <h2>📖 Blog</h2>
+    <div class="post">
+      <div class="date">2025-07-08</div>
+      <h3>How I Made My Website from Mobile</h3>
+      <p>Termux aur GitHub Pages use karke mene apni website banayi. Coding seekhne ke liye perfect start tha!</p>
     </div>
+  </div>
 
+  <div class="section">
+    <h2>💻 Python Projects</h2>
+    <div class="project">
+      <h3>Simple Calculator</h3>
+      <p>Ye project user se input leke basic +, -, *, / calculation karta hai.</p>
+      <a class="button" href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/simple_calculator.zip" download>⬇️ Download</a>
+    </div>
+    <div class="project">
+      <h3>Odd or Even Checker</h3>
+      <p>Number check karta hai odd hai ya even.</p>
+      <a class="button" href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/odd_even.zip" download>⬇️ Download</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛒 Affiliate Picks</h2>
+    <div class="affiliate">
+      <h3>Best Budget Laptop for Coding 💻</h3>
+      <p>High performance + budget friendly. Check it out:</p>
+      <a class="button" href="https://amzn.to/your-affiliate-link" target="_blank">Buy on Amazon</a>
+    </div>
   </div>
 
   <footer>
