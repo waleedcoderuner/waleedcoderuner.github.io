@@ -3,121 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Waleed's Blog</title>
+  <title>Waleed's Projects</title>
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
+      background: #f4f4f4;
       color: #333;
     }
-
     header {
-      background-color: #1f1f1f;
-      color: white;
+      background: #1e1e1e;
+      color: #fff;
       padding: 20px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-size: 1.8em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
-
-    h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-
     .container {
-      max-width: 700px;
-      margin: 0 auto;
+      max-width: 800px;
+      margin: 20px auto;
       padding: 16px;
     }
-
-    .post {
-      background-color: white;
-      margin-bottom: 24px;
+    .project {
+      background: #fff;
       padding: 20px;
+      margin-bottom: 20px;
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease;
     }
-
-    .post:hover {
-      transform: translateY(-4px);
+    .project h2 {
+      margin-top: 0;
     }
-
-    .date {
-      font-size: 0.9em;
-      color: #888;
+    .project p {
       margin-bottom: 10px;
     }
-
-    a {
-      color: #0077cc;
+    .download-btn {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #007acc;
+      color: white;
       text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
     }
-
-    a:hover {
-      text-decoration: underline;
+    .download-btn:hover {
+      background: #005fa3;
     }
-
     footer {
       text-align: center;
       padding: 20px;
-      font-size: 0.8em;
       color: #aaa;
+      font-size: 0.9em;
+      background: #f0f0f0;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Waleed's Blog</h1>
-  </header>
+
+  <header>👨‍💻 Waleed's Programming Projects</header>
 
   <div class="container">
-
-    <div class="post">
-      <div class="date">2025-07-04</div>
-      <h2>My First Post</h2>
-      <p>Hello! This is my simple blog website created with GitHub Pages and my mobile phone.</p>
-    </div>
-
-    <div class="post">
-      <div class="date">2025-07-06</div>
-      <h2>My Third Post</h2>
-      <p>Aaj mene seekha ke kaise naye blog post add karte hain Termux aur GitHub Pages se.</p>
-      <p>
-        <a href="https://github.com/waleedcoderuner/python-programs/blob/main/hello.py" target="_blank">
-          📎 View My Hello Python Program
-        </a>
-      </p>
-    </div>
-
-    <div class="post">
-      <div class="date">2025-07-08</div>
+    <div class="project">
       <h2>Odd or Even Checker</h2>
       <p>Ye program user se number leta hai aur batata hai ke wo odd hai ya even.</p>
-      <p>
-        <a href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/odd_even.py" download>
-          ⬇️ Download Odd/Even Program
-        </a>
-      </p>
+      <a class="download-btn" href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/odd_even.py" download>⬇️ Download</a>
     </div>
 
-    <div class="post">
-      <div class="date">2025-07-08</div>
+    <div class="project">
       <h2>Fahrenheit to Celsius Converter</h2>
-      <p>Ye program temperature ko Fahrenheit se Celsius me convert karta hai.</p>
-      <p>
-        <a href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/temperature_converter.py" download>
-          ⬇️ Download Temperature Converter
-        </a>
-      </p>
+      <p>Temperature ko Fahrenheit se Celsius me convert karne wala program.</p>
+      <a class="download-btn" href="https://raw.githubusercontent.com/waleedcoderuner/python-programs/main/temperature_converter.py" download>⬇️ Download</a>
     </div>
 
+    <!-- Yahan naye projects add karte jao -->
   </div>
 
-  <footer>
-    &copy; 2025 Waleed Ali. All rights reserved.
-  </footer>
+  <footer>&copy; 2025 Waleed Ali. All rights reserved.</footer>
 </body>
 </html>
